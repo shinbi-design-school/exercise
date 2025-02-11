@@ -17,8 +17,10 @@ public class TenSeconds {
 		
 		long end = System.currentTimeMillis();
 		double time = (double)(end - start) / 1000.0;
+		double diff = time - 10.0;
 		
 		System.out.println(time + "秒でした。");
+		System.out.println("差: " + diff);
 		
 		scanner.close();
 	}
