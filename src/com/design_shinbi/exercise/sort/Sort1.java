@@ -3,7 +3,7 @@ package com.design_shinbi.exercise.sort;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class Sort {
+public class Sort1 {
 	public static void main(String[] args) {
 		ArrayList<Student> students = new ArrayList<Student>();
 		students.add(new Student("佐藤", 100, 80, 70));
